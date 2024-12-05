@@ -1,5 +1,4 @@
 # The art of Arita
-#### ведется разработка
 
 ![](./images/banner.png)
 

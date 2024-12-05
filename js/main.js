@@ -16,12 +16,14 @@ const init = () => {
   const showNextSlide = () => {
     bgSlides("down");
     imagesSlides("down");
-    console.log("next");
+    shapesSlides("down")
+    textSlides("down")
   };
   const showPrevSlide = () => {
     bgSlides("up");
     imagesSlides("up");
-    console.log("prev");
+    shapesSlides("up")
+    textSlides("up")
   };
 
   if (window.innerWidth >= 768) {
@@ -35,7 +37,6 @@ const init = () => {
           setTimeout(() => {
             helperInput.value = 1;
           }, 1500);
-          console.log("scroll up");
         }
       } else {
         if (helperInput.value == 1) {
@@ -44,7 +45,6 @@ const init = () => {
           setTimeout(() => {
             helperInput.value = 1;
           }, 1500);
-          console.log("scroll down");
         }
       }
     });
